@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div.item2{
+            position: relative;
+            text-align: center;
+            font-weight: bold;
+            padding: 20px;
+            background-color: #cf5555;
+            width: 200px;
+        }
+        .item3{
+            position: absolute;
+            display: none;
+            width: 240px;
+            height: 200px;
+            overflow-y: scroll;
+           
+        }
+        div.item3 > button{
+            background-color: aliceblue;
+            width: 223px;
+            border: none;
+            padding: 15px;
+            cursor: pointer;
+        }
+        .item1:hover .item3{
+            display: block;
+        }
+        .Opt:hover{
+            background-color: #988e8e;
+        }   
+    </style>
+</head>
+<body>
+    <section>
+        <div class="item item1">        
+            <div class="item item2">
+                Hover to View Options
+            </div>
+                <div class="item item3">
+             <button class="Opt">Option 1</button>
+             <button class="Opt">Option 2</button>     
+             <button class="Opt">Option 3</button>     
+             <button class="Opt">Option 4</button>     
+             <button class="Opt">Option 5</button>     
+             <button class="Opt">Option 6</button>     
+             <button class="Opt">Option 7</button>     
+             <button class="Opt">Option 8</button>     
+             <button class="Opt">Option 9</button>          
+                 </div>
+            </div>
+    </section>
+</body>
+</html>
